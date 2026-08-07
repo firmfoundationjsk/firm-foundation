@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firm Foundation — Sites web, applications & IA</title>
+    <meta name="description" content="Firm Foundation crée des sites web, applications et agents IA modernes, rapides et orientés conversion." />
+    <meta property="og:title" content="Firm Foundation — Sites web, applications & IA" />
+    <meta property="og:description" content="Firm Foundation crée des sites web, applications et agents IA modernes, rapides et orientés conversion." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://firmfoundation.example.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Firm Foundation",
+        "url": "https://firmfoundation.example.com/",
+        "logo": "https://firmfoundation.example.com/assets/logo.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/firm-foundation-75b823404",
+          "https://x.com/Firmfound_510",
+          "https://www.instagram.com/th_firm_foundation"
+        ],
+        "description": "Agence IA et développement web premium orientée conversion, design et automatisation."
+      }
+    </script>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-neon bg-neon--1"></div>
+      <div class="bg-neon bg-neon--2"></div>
+      <div class="bg-neon bg-neon--3"></div>
+      <canvas class="bg-particles" id="bg-particles"></canvas>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="wrap inner">
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/logo.png" alt="Firm Foundation" width="40" height="40" />
+          <div>
+            <strong>Firm Foundation</strong>
+            <span>Sites web • Apps • Agents IA</span>
+          </div>
+        </a>
+
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Ouvrir le menu">
+          <div class="menu-lines" aria-hidden="true"><span></span></div>
+        </button>
+
+        <nav class="nav" data-nav-wrap>
+          <a href="index.html" data-nav>Accueil</a>
+          <a href="services.html" data-nav>Services</a>
+          <a href="products.html" data-nav>Produits</a>
+          <a href="portfolio.html" data-nav>Portfolio</a>
+          <a href="faq.html" data-nav>FAQ</a>
+          <a href="about.html" data-nav>À propos</a>
+          <a href="contact.html" data-nav>Contact</a>
+          <a class="cta" href="contact.html">Démarrer un projet</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-visual" aria-hidden="true">
+          <div class="laptop-halo"></div>
+          <div class="laptop-mockup">
+            <div class="laptop-screen">
+              <div class="laptop-notch"></div>
+              <div class="laptop-screen-inner">
+                <div class="laptop-ui-bar"><span></span><span></span><span></span></div>
+                <div class="laptop-ui-content">
+                  <div class="laptop-ui-line"></div>
+                  <div class="laptop-ui-line"></div>
+                  <div class="laptop-ui-line"></div>
+                  <div class="laptop-ui-block"><span>Firm Foundation</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+        </div>
+
+        <div class="hero-bento hero-bento--premium">
+          <div class="hero-bento-grid" role="list" aria-label="Points forts">
+            <article class="hero-mini-card glass glow-edge" data-counter data-reveal>
+              <span class="hero-mini-card__value count" data-target="24" data-suffix="h">0h</span>
+              <h3>Réponse sous 24h</h3>
+              <p>Notre équipe répond rapidement à chaque demande de projet.</p>
+            </article>
+            <article class="hero-mini-card glass glow-edge" data-counter data-reveal>
+              <span class="hero-mini-card__value count" data-target="21" data-suffix="j">0j</span>
+              <h3>Livraison accélérée</h3>
+              <p>Des cycles courts pour mettre votre produit en ligne sans délai.</p>
+            </article>
+            <article class="hero-mini-card glass glow-edge" data-counter data-reveal>
+              <span class="hero-mini-card__value count" data-target="100" data-suffix="%">0%</span>
+              <h3>Approche orientée client</h3>
+              <p>Chaque décision est guidée par vos objectifs business.</p>
+            </article>
+            <article class="hero-mini-card glass glow-edge" data-reveal>
+              <span class="hero-mini-card__icon" aria-hidden="true">✦</span>
+              <h3>Design professionnel</h3>
+              <p>Interfaces premium pensées pour la conversion et la performance.</p>
+            </article>
+          </div>
+
+          <div class="hero-bento-main card pad glass glow-edge" data-reveal>
+            <div class="hero-badge">Agence IA & Développement Web</div>
+            <h1>Firm Foundation</h1>
+            <p class="hero-subtitle">Nous concevons des sites web, applications et systèmes d'automatisation IA qui aident les entreprises à croître plus vite.</p>
+            <p class="lead">Design premium, performances natives et parcours optimisés pour convertir plus de visiteurs en clients.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="https://calendly.com/firmfoundation" target="_blank" rel="noopener noreferrer">Réserver un appel</a>
+              <a class="btn secondary" href="portfolio.html">Voir nos réalisations</a>
+            </div>
+            <div class="hero-foot">
+              <div class="pill">Sites web • Apps • Agents IA • Automatisation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" data-reveal>
+        <div class="section-head">
+          <div>
+            <h2>Pourquoi choisir Firm Foundation</h2>
+            <p>Une agence qui combine expérience digitale, automatisation IA et exécution rapide.</p>
+          </div>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><h3>Livraison rapide</h3><p>De l'étude initiale à la mise en ligne, nous avançons avec clarté et rythme.</p></article>
+          <article class="feature-card"><h3>Solutions sur mesure</h3><p>Chaque produit est adapté à vos objectifs, votre marché et vos utilisateurs.</p></article>
+          <article class="feature-card"><h3>IA & Automatisation</h3><p>Intégration d'agents, workflows et chatbots pour optimiser les opérations.</p></article>
+          <article class="feature-card"><h3>Support professionnel</h3><p>Communication claire, livrables précis et suivi réactif après lancement.</p></article>
+          <article class="feature-card"><h3>Design moderne</h3><p>Interface haut de gamme, lisible, mobile-first et orientée performance.</p></article>
+          <article class="feature-card"><h3>Optimisation SEO</h3><p>Base technique propre, pages rapides et structure pensée pour le référencement.</p></article>
+        </div>
+      </section>
+      <section class="section stats-bar" data-reveal>
+        <div class="card pad glow-edge">
+          <div class="section-head">
+            <div>
+              <h2>Résultats & Réalisations</h2>
+              <p>Des chiffres clairs pour illustrer notre impact sur les projets digitaux.</p>
+            </div>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card" data-counter><span class="count" data-target="68">0</span><span class="label">Projets réalisés</span></article>
+            <article class="stat-card" data-counter><span class="count" data-target="18">0</span><span class="label">Clients satisfaits</span></article>
+            <article class="stat-card" data-counter><span class="count" data-target="97" data-suffix="%">0%</span><span class="label">Taux de satisfaction</span></article>
+          </div>
+          <div class="grid-3 section" style="margin-top:24px">
+            <article class="project-card"><div class="meta">Web</div><h3>Site vitrine premium</h3><p>Une présence digitale épurée, rapide et orientée conversion pour une marque B2B.</p></article>
+            <article class="project-card"><div class="meta">Application</div><h3>Portail client</h3><p>Tableau de bord fluide et automatisations conçues pour un usage quotidien.</p></article>
+            <article class="project-card"><div class="meta">IA</div><h3>Assistant intelligent</h3><p>Agent IA capable de qualifier des leads et d'organiser des rendez-vous automatiquement.</p></article>
+          </div>
+        </div>
+      </section>
+      <section class="section" data-reveal>
+        <div class="card pad glow-edge">
+          <div class="section-head">
+            <div>
+              <h2>Notre processus</h2>
+              <p>Un chemin clair en cinq étapes pour un produit livré sans compromis.</p>
+            </div>
+          </div>
+          <div class="timeline">
+            <article class="timeline-step" data-reveal><span>1</span><div><h3>Découverte</h3><p>Analyse rapide de votre besoin, objectifs et contexte commercial.</p></div></article>
+            <article class="timeline-step" data-reveal><span>2</span><div><h3>Stratégie</h3><p>Priorisation des fonctionnalités, UX et positionnement pour convertir.</p></div></article>
+            <article class="timeline-step" data-reveal><span>3</span><div><h3>Développement</h3><p>Déploiement de la solution en cycles courts avec tests et optimisation.</p></div></article>
+            <article class="timeline-step" data-reveal><span>4</span><div><h3>Livraison</h3><p>Publication rapide, check-list qualité et plan de mise en ligne soigné.</p></div></article>
+            <article class="timeline-step" data-reveal><span>5</span><div><h3>Support</h3><p>Accompagnement post-lancement, maintenance et évolutions mesurées.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- NOS RÉALISATIONS -->
+      <section class="section" data-reveal>
+        <div class="section-head">
+          <div>
+            <h2>Nos réalisations</h2>
+            <p>Découvrez comment nous aidons les entreprises à développer leur présence digitale grâce au web, à l'automatisation et à l'intelligence artificielle.</p>
+          </div>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-reveal>
+            <div class="media">
+              <img src="assets/White Green and Black Modern Medical Healthcare Presentation.png" alt="Cabinet Médical Premium" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Santé</div>
+            <h3>Cabinet Médical Premium</h3>
+            <p><b>Objectif :</b> Permettre la prise de rendez-vous en ligne.</p>
+            <p><b>Solution :</b> Création d'un site web moderne avec formulaire de réservation et optimisation mobile.</p>
+            <p class="result"><b>Résultat :</b> Expérience utilisateur améliorée et processus simplifié.</p>
+            <div class="tags"><span class="tag">Réservation</span><span class="tag">Mobile</span><span class="tag">UX</span></div>
+            <div class="split">
+              <a class="btn secondary" href="portfolio.html">Voir le projet</a>
+              <a class="btn" href="portfolio.html">Étude de cas</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-reveal>
+            <div class="media">
+              <img src="assets/IMMOBILIER.png" alt="Agence Immobilière Pro" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Immobilier</div>
+            <h3>Agence Immobilière Pro</h3>
+            <p><b>Objectif :</b> Générer davantage de prospects qualifiés.</p>
+            <p><b>Solution :</b> Site web moderne avec intégration WhatsApp et formulaire intelligent.</p>
+            <p class="result"><b>Résultat :</b> Meilleure visibilité et génération de contacts.</p>
+            <div class="tags"><span class="tag">WhatsApp</span><span class="tag">Leads</span><span class="tag">Performance</span></div>
+            <div class="split">
+              <a class="btn secondary" href="portfolio.html">Voir le projet</a>
+              <a class="btn" href="portfolio.html">Étude de cas</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-reveal>
+            <div class="media">
+              <img src="assets/RESTAURANT.png" alt="Restaurant Tasty Food" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Restauration</div>
+            <h3>Restaurant Tasty Food</h3>
+            <p><b>Objectif :</b> Augmenter les réservations.</p>
+            <p><b>Solution :</b> Site web responsive avec menu numérique et réservation intégrée.</p>
+            <p class="result"><b>Résultat :</b> Meilleure expérience client et plus de réservations.</p>
+            <div class="tags"><span class="tag">Menu</span><span class="tag">Réservation</span><span class="tag">Responsive</span></div>
+            <div class="split">
+              <a class="btn secondary" href="portfolio.html">Voir le projet</a>
+              <a class="btn" href="portfolio.html">Étude de cas</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CE QUE NOS CLIENTS DISENT DE NOUS -->
+      <section class="section" data-reveal>
+        <div class="section-head">
+          <div>
+            <h2>Ce que nos clients disent de nous</h2>
+            <p>Des témoignages de clients satisfaits qui ont transformé leur présence digitale avec Firm Foundation.</p>
+          </div>
+        </div>
+        <div class="testimonials-grid">
+          <article class="testimonial-card" data-reveal>
+            <div>
+              <div class="rating">
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+              </div>
+              <p class="quote">Firm Foundation a complètement transformé notre présence en ligne. L'équipe a été professionnelle du début à la fin, très à l'écoute et réactive à nos demandes.</p>
+            </div>
+            <div class="author">
+              <div class="author-avatar">JM</div>
+              <div class="author-info">
+                <h4>Jean M.</h4>
+                <p>Cabinet Médical Premium</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" data-reveal>
+            <div>
+              <div class="rating">
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+              </div>
+              <p class="quote">Le nouveau site a amélioré notre image de marque et simplifié considérablement la prise de contact avec nos clients. Les résultats sont visibles rapidement.</p>
+            </div>
+            <div class="author">
+              <div class="author-avatar">SK</div>
+              <div class="author-info">
+                <h4>Sarah K.</h4>
+                <p>Agence Immobilière Pro</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" data-reveal>
+            <div>
+              <div class="rating">
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+                <span class="star">⭐</span>
+              </div>
+              <p class="quote">Excellent travail. Le design est moderne, rapide et parfaitement adapté à notre activité. Nos clients apprécient vraiment la nouvelle expérience.</p>
+            </div>
+            <div class="author">
+              <div class="author-avatar">PL</div>
+              <div class="author-info">
+                <h4>Patrick L.</h4>
+                <p>Restaurant Tasty Food</p>
+              </div>+
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" data-reveal>
+        <div class="section-head">
+          <div>
+            <h2>Portfolio premium</h2>
+            <p>Des projets livrés avec un rendu haut de gamme et une attention forte à l'expérience.</p>
+          </div>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-reveal><div class="meta">Site vitrine</div><h3>Design express et impact visuel</h3><p>Une page de marque claire, narrative et conçue pour générer des contacts qualifiés.</p><div class="tags"><span class="tag">UI/UX</span><span class="tag">SEO</span><span class="tag">Landing</span></div><p class="result">Résultat : +35% de prise de contact après lancement.</p><a class="btn secondary" href="portfolio.html">Voir le projet</a></article>
+          <article class="portfolio-card" data-reveal><div class="meta">E-commerce</div><h3>Caisse et parcours optimisés</h3><p>Catalogue flexible, tunnel de conversion et rapidité pour augmenter les ventes.</p><div class="tags"><span class="tag">Payments</span><span class="tag">UX</span><span class="tag">Performance</span></div><p class="result">Résultat : conversion améliorée sur mobile.</p><a class="btn secondary" href="portfolio.html">Voir le projet</a></article>
+          <article class="portfolio-card" data-reveal><div class="meta">Agent IA</div><h3>Automatisation commerciale</h3><p>Qualification des leads, prise de rendez-vous et support client automatisés.</p><div class="tags"><span class="tag">Chatbot</span><span class="tag">CRM</span><span class="tag">Automatisation</span></div><p class="result">Résultat : temps de réponse réduit et meilleure organisation.</p><a class="btn secondary" href="portfolio.html">Voir le projet</a></article>
+        </div>
+      </section>
+      <section class="section" data-reveal>
+        <div class="section-head">
+          <div>
+            <h2>Automatisation et Intelligence Artificielle</h2>
+            <p>Agents IA et workflows conçus pour libérer votre équipe et maximiser l'efficacité.</p>
+          </div>
+        </div>
+        <div class="ia-section">
+          <div class="ia-content">
+            <div class="card pad glass glow-edge" data-reveal>
+              <div class="ia-grid">
+                <article class="ia-card">
+                  <div class="meta">Agents IA</div>
+                  <h3>Compétences conversationnelles</h3>
+                  <p>Interaction intelligente, qualification de prospects et réponse automatique aux questions.</p>
+                </article>
+                <article class="ia-card">
+                  <div class="meta">Chatbots</div>
+                  <h3>Support instantané</h3>
+                  <p>Expérience fluide 24/7 pour réduire le délai de réponse et augmenter l'engagement.</p>
+                </article>
+                <article class="ia-card">
+                  <div class="meta">Automatisation CRM</div>
+                  <h3>Flux automatisés</h3>
+                  <p>Synchronisation des leads, relances et création d'actions sans intervention manuelle.</p>
+                </article>
+              </div>
+            </div>
+            <div class="card pad glass glow-edge" data-reveal>
+              <div class="ia-grid">
+                <article class="ia-card">
+                  <div class="meta">Qualification</div>
+                  <h3>Leads qualifiés</h3>
+                  <p>Critères d'entrée définis pour n'envoyer que les demandes les plus pertinentes.</p>
+                </article>
+                <article class="ia-card">
+                  <div class="meta">Rendez-vous</div>
+                  <h3>Gestion des calendriers</h3>
+                  <p>Prise de RDV automatique et suivi client intégré.</p>
+                </article>
+                <article class="ia-card">
+                  <div class="meta">Support client</div>
+                  <h3>Assistance proactive</h3>
+                  <p>Réponses instantanées et transfert vers une équipe réelle quand nécessaire.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="illustration-placeholder" data-reveal>
+            <img src="assets/agent.jpeg" alt="Agent IA Firm Foundation" loading="lazy" />
+          </div>
+        </div>
+      </section>
+      <section class="cta-banner" data-reveal>
+        <div>
+          <h2>Prêt à lancer votre prochain projet digital ?</h2>
+          <p>Notre approche premium combine design, IA et automatisation pour des résultats tangibles.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="contact.html">Démarrer un projet</a>
+          <a class="btn secondary" href="https://calendly.com/firmfoundation" target="_blank" rel="noopener noreferrer">Réserver un appel</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-top">
+        <div class="footer-col">
+          <strong>Firm Foundation</strong>
+          <p>Agence IA & développement web premium, conçue pour les entreprises ambitieuses.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Liens rapides</h3>
+          <div class="footer-links">
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <p><a href="mailto:firmfoundationsjsk510@gmail.com">firmfoundationsjsk510@gmail.com</a></p>
+          <p><a href="https://calendly.com/firmfoundation" target="_blank" rel="noopener noreferrer">Réserver un appel</a></p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <p>© 2026 Firm Foundation. Mentions légales.</p>
+        <p>Site rapide, performant et premium.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Lightbox: fullscreen preview for portfolio images -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+      <button class="lightbox__close" aria-label="Fermer la vue">×</button>
+      <div class="lightbox__inner">
+        <img class="lightbox__img" src="" alt="" />
+        <div class="lightbox__caption" aria-live="polite"></div>
+      </div>
+    </div>
+  </body>
+</html>

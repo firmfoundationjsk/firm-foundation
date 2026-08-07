@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Firm Foundation</title>
+    <meta name="description" content="Contactez Firm Foundation : formulaire, réservation d'appel, liens sociaux et prochaines étapes." />
+    <meta property="og:title" content="Contact — Firm Foundation" />
+    <meta property="og:description" content="Contactez Firm Foundation : formulaire, réservation d'appel, liens sociaux et prochaines étapes." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://firmfoundation.example.com/contact.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-neon bg-neon--1"></div>
+      <div class="bg-neon bg-neon--2"></div>
+      <div class="bg-neon bg-neon--3"></div>
+      <canvas class="bg-particles" id="bg-particles"></canvas>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="wrap inner">
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/logo.png" alt="Firm Foundation" width="40" height="40" />
+          <div>
+            <strong>Firm Foundation</strong>
+            <span>Sites web • Apps • Agents IA</span>
+          </div>
+        </a>
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Ouvrir le menu">
+          <div class="menu-lines" aria-hidden="true"><span></span></div>
+        </button>
+        <nav class="nav" data-nav-wrap>
+          <a href="index.html" data-nav>Accueil</a>
+          <a href="services.html" data-nav>Services</a>
+          <a href="products.html" data-nav>Produits</a>
+          <a href="portfolio.html" data-nav>Portfolio</a>
+          <a href="faq.html" data-nav>FAQ</a>
+          <a href="about.html" data-nav>À propos</a>
+          <a href="contact.html" data-nav>Contact</a>
+          <a class="cta" href="contact.html">Démarrer un projet</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="card pad glass glow-edge" data-reveal>
+            <div class="hero-badge">Agence IA & Développement Web</div>
+            <h1>Contact</h1>
+            <p class="hero-subtitle">Dites-nous ce que vous construisez : site, application ou agent IA. Nous répondons sous 24h avec des prochaines étapes claires.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="https://calendly.com/firmfoundation" target="_blank" rel="noopener noreferrer">Réserver un appel</a>
+              <a class="btn secondary" href="portfolio.html">Voir le portfolio</a>
+            </div>
+          </div>
+
+          <aside class="card pad glass glow-edge" data-reveal>
+            <div class="eyebrow"><span class="dot"></span> Formulaire optimisé</div>
+            <h2>Formulaire de contact</h2>
+            <form id="contact-form" data-contact-form action="https://formsubmit.co/firmfoundationsjsk510@gmail.com" method="POST" novalidate>
+              <input type="hidden" name="_replyto" value="" />
+              <input type="hidden" name="_subject" value="Nouvelle demande — Firm Foundation" />
+              <input type="hidden" name="_next" value="confirmation.html" />
+
+              <div class="field">
+                <label for="name">Nom</label>
+                <input id="name" name="name" type="text" placeholder="Votre nom" required minlength="2" maxlength="100" />
+                <span class="error-message" data-error="name"></span>
+              </div>
+
+              <div class="grid-2">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="vous@domaine.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+                  <span class="error-message" data-error="email"></span>
+                </div>
+                <div class="field">
+                  <label for="project">Type de projet</label>
+                  <select id="project" name="project" required>
+                    <option value="" selected disabled>Choisissez…</option>
+                    <option value="Site web">Site web (vitrine / e-commerce / personnalisé)</option>
+                    <option value="Application">Application (web / mobile / APK)</option>
+                    <option value="Agent IA">Agent IA / automatisation</option>
+                  </select>
+                  <span class="error-message" data-error="project"></span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Quel est l’objectif, le délai et les fonctionnalités indispensables ?" required minlength="10" maxlength="5000"></textarea>
+                <span class="error-message" data-error="message"></span>
+              </div>
+
+              <div class="form-status" aria-live="polite" role="status">
+                <div class="status-message" id="status-message"></div>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn primary" type="submit" id="submit-btn" data-loading-text="Envoi en cours...">Envoyer le message</button>
+                <a class="btn" href="portfolio.html">Voir le portfolio</a>
+              </div>
+            </form>
+
+            <div class="section" style="margin-top:18px">
+              <h3>Contact direct</h3>
+              <p><a href="mailto:firmfoundationsjsk510@gmail.com">firmfoundationsjsk510@gmail.com</a></p>
+              <div class="badges" style="margin-top:10px">
+                <a class="badge dark" href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a class="badge" href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+                <a class="badge alt" href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" data-reveal>
+        <div class="card pad glow-edge">
+          <h2>Ce qui se passe après votre message</h2>
+          <div class="grid-2">
+            <div class="tile">
+              <h3>1) Réponse rapide</h3>
+              <p>Nous confirmons vos objectifs et posons les premières questions utiles.</p>
+            </div>
+            <div class="tile">
+              <h3>2) Cadrage et proposition</h3>
+              <p>Plan, périmètre, délais et estimation claire.</p>
+            </div>
+            <div class="tile">
+              <h3>3) Phase de construction</h3>
+              <p>Design et développement en cycles courts, avec validations régulières.</p>
+            </div>
+            <div class="tile">
+              <h3>4) Livraison & suivi</h3>
+              <p>Handover, déploiement et support optionnel pour l’après-lancement.</p>
+            </div>
+          </div>
+          <div class="split" style="margin-top:14px">
+            <a class="btn primary" href="services.html">Voir les services</a>
+            <a class="btn" href="faq.html">Lire la FAQ</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <div class="foot-brand">
+          <strong>Firm Foundation</strong>
+          <p>Construisons quelque chose de premium.</p>
+          <p>Vous voulez un devis rapide ? Indiquez votre budget et votre deadline.</p>
+          <div class="foot-social">
+            <a href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+          <p style="margin-top:12px">© 2026 Firm Foundation. Tous droits réservés.</p>
+        </div>
+        <div class="links">
+          <a href="blog.html">Blog</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="products.html">Produits</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

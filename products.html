@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produits — Firm Foundation</title>
+    <meta name="description" content="Boutique de produits digitaux : templates, agents IA, scripts d’automatisation et guides pratiques." />
+    <meta property="og:title" content="Produits — Firm Foundation" />
+    <meta property="og:description" content="Boutique de produits digitaux : templates, agents IA, scripts d’automatisation et guides pratiques." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://firmfoundation.example.com/products.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-neon bg-neon--1"></div>
+      <div class="bg-neon bg-neon--2"></div>
+      <div class="bg-neon bg-neon--3"></div>
+      <canvas class="bg-particles" id="bg-particles"></canvas>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="wrap inner">
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/logo.png" alt="Firm Foundation" width="40" height="40" />
+          <div>
+            <strong>Firm Foundation</strong>
+            <span>Sites web • Apps • Agents IA</span>
+          </div>
+        </a>
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Ouvrir le menu">
+          <div class="menu-lines" aria-hidden="true"><span></span></div>
+        </button>
+        <nav class="nav" data-nav-wrap>
+          <a href="index.html" data-nav>Accueil</a>
+          <a href="services.html" data-nav>Services</a>
+          <a href="products.html" data-nav>Produits</a>
+          <a href="portfolio.html" data-nav>Portfolio</a>
+          <a href="faq.html" data-nav>FAQ</a>
+          <a href="about.html" data-nav>À propos</a>
+          <a href="contact.html" data-nav>Contact</a>
+          <a class="cta" href="contact.html">Démarrer un projet</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="card pad glow-edge">
+          <div class="eyebrow"><span class="dot"></span> Offres numériques prêtes à l’emploi</div>
+          <h1>Produits</h1>
+          <p class="lead">
+            Produits digitaux concrets : templates, agents IA, automatisations et guides pratiques.
+          </p>
+
+          <div class="section-head" style="margin-top:14px">
+            <p style="margin:0">Filtrer par catégorie : <b>Web / IA / Outils / Formation</b></p>
+            <div class="filters" data-filter-group>
+              <button class="chip" type="button" data-filter="all" aria-pressed="true">Tous</button>
+              <button class="chip" type="button" data-filter="web" aria-pressed="false">Web</button>
+              <button class="chip" type="button" data-filter="ai" aria-pressed="false">IA</button>
+              <button class="chip" type="button" data-filter="tools" aria-pressed="false">Outils</button>
+              <button class="chip" type="button" data-filter="training" aria-pressed="false">Formation</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid-2">
+          <article class="tile glow-edge" data-card data-kind="web" data-reveal>
+            <div class="meta">Template web</div>
+            <h2>Template page de destination</h2>
+            <p>Template responsive prêt à l’emploi pour site vitrine, promotion ou lancement de produit.</p>
+            <p><strong>Prix :</strong> 49 €</p>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Commander ce template</a>
+              <a class="btn" href="contact.html">Demander un custom</a>
+            </div>
+            <div class="badges">
+              <span class="badge">Landing</span><span class="badge alt">Responsive</span><span class="badge dark">Conversion</span>
+            </div>
+          </article>
+
+          <article class="tile glow-edge" data-card data-kind="ai" data-reveal>
+            <div class="meta">Agent IA</div>
+            <h2>Agent de support IA</h2>
+            <p>Agent chatbot préconfiguré pour répondre aux questions, qualifier les leads et transférer au service humain.</p>
+            <p><strong>Prix :</strong> 299 €</p>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Commander cet agent IA</a>
+              <a class="btn" href="contact.html">Demander une démo</a>
+            </div>
+            <div class="badges">
+              <span class="badge">Chatbot</span><span class="badge alt">Qualification</span><span class="badge dark">Handoff</span>
+            </div>
+          </article>
+
+          <article class="tile glow-edge" data-card data-kind="tools" data-reveal>
+            <div class="meta">Outil</div>
+            <h2>Pack d’automatisation</h2>
+            <p>Scripts prêts pour relances, suivi clients et rapports automatisés, à intégrer dans vos outils existants.</p>
+            <p><strong>Prix :</strong> 79 €</p>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Commander le pack</a>
+              <a class="btn" href="contact.html">Personnaliser</a>
+            </div>
+            <div class="badges">
+              <span class="badge">Workflows</span><span class="badge alt">Intégrations</span><span class="badge dark">Reporting</span>
+            </div>
+          </article>
+
+          <article class="tile glow-edge" data-card data-kind="training" data-reveal>
+            <div class="meta">Guide</div>
+            <h2>Guide PDF : lancer un service digital</h2>
+            <p>Checklist et méthode pour lancer un site, une application ou un agent IA avec un minimum de friction.</p>
+            <p><strong>Prix :</strong> Gratuit</p>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Demander le guide</a>
+              <a class="btn" href="contact.html">Demander plus</a>
+            </div>
+            <div class="badges">
+              <span class="badge">Checklist</span><span class="badge alt">Stratégie</span><span class="badge dark">Lancement</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <div class="foot-brand">
+          <strong>Firm Foundation</strong>
+          <p>Produits packagés et livraison sur mesure.</p>
+          <p>Besoin d’une solution personnalisée ? Nous la cadrons rapidement.</p>
+          <div class="foot-social">
+            <a href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+          <p style="margin-top:12px">© 2026 Firm Foundation. Tous droits réservés.</p>
+        </div>
+        <div class="links">
+          <a href="blog.html">Blog</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Firm Foundation</title>
+    <meta name="description" content="Études de cas et projets livrés par Firm Foundation — sites, apps et agents IA." />
+    <meta property="og:title" content="Portfolio — Firm Foundation" />
+    <meta property="og:description" content="Études de cas et projets livrés par Firm Foundation — sites, apps et agents IA." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://firmfoundation.example.com/portfolio.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-neon bg-neon--1"></div>
+      <div class="bg-neon bg-neon--2"></div>
+      <div class="bg-neon bg-neon--3"></div>
+      <canvas class="bg-particles" id="bg-particles"></canvas>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="wrap inner">
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/logo.png" alt="Firm Foundation" width="40" height="40" />
+          <div>
+            <strong>Firm Foundation</strong>
+            <span>Sites web • Apps • Agents IA</span>
+          </div>
+        </a>
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Ouvrir le menu">
+          <div class="menu-lines" aria-hidden="true"><span></span></div>
+        </button>
+        <nav class="nav" data-nav-wrap>
+          <a href="index.html" data-nav>Accueil</a>
+          <a href="services.html" data-nav>Services</a>
+          <a href="products.html" data-nav>Produits</a>
+          <a href="portfolio.html" data-nav>Portfolio</a>
+          <a href="faq.html" data-nav>FAQ</a>
+          <a href="about.html" data-nav>À propos</a>
+          <a href="contact.html" data-nav>Contact</a>
+          <a class="cta" href="contact.html">Démarrer un projet</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="card pad glow-edge">
+          <div class="eyebrow"><span class="dot"></span> Études de cas détaillées</div>
+          <h1 class="gradient-text">Portfolio</h1>
+          <p class="lead">
+            Exemples de projets, filtres, témoignages clients et solutions concrètes pour vos besoins web, apps et IA.
+          </p>
+
+          <div class="section-head" style="margin-top:14px">
+            <p style="margin:0">Filtrer par type : <b>Site web / Agent IA / Application</b></p>
+            <div class="filters" data-filter-group>
+              <button class="chip" type="button" data-filter="all" aria-pressed="true">Tous</button>
+              <button class="chip" type="button" data-filter="website" aria-pressed="false">Site web</button>
+              <button class="chip" type="button" data-filter="ai" aria-pressed="false">Agent IA</button>
+              <button class="chip" type="button" data-filter="application" aria-pressed="false">Application</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/IMMOBILIER.png" alt="Agence Immobilière Pro" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Vitrine</div>
+            <h3>Agence Immobilière Pro</h3>
+            <p><b>Problème :</b> le site ne convertissait pas assez de visiteurs en demandes de contact.</p>
+            <p><b>Solution :</b> refonte du hero, des témoignages clients et du formulaire de prise de rendez-vous.</p>
+            <p><b>Objectif :</b> augmenter la confiance et générer plus de leads qualifiés.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">UX</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Créer un projet similaire</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/BEAUTY.png" alt="Beauty Skin" loading="lazy" />
+            </div>
+            <div class="meta">Site web • E-commerce</div>
+            <h3>Beauty Skin</h3>
+            <p><b>Problème :</b> l’expérience produit ne donnait pas envie d’acheter.</p>
+            <p><b>Solution :</b> pages produit plus claires, fiches détaillées et tunnel d’achat simplifié.</p>
+            <p><b>Objectif :</b> augmenter le taux de conversion et réduire l’abandon panier.</p>
+            <div class="tags">
+              <span class="tag">E-commerce</span><span class="tag">Responsive</span><span class="tag">SEO</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="products.html">Voir l’offre template</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/RESTAURANT.png" alt="Restaurant gastronomique" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Restaurant</div>
+            <h3>Restaurant gastronomique</h3>
+            <p><b>Problème :</b> la réservation en ligne était difficile et le menu manquait de clarté.</p>
+            <p><b>Solution :</b> design de menu attractif, réservation simplifiée et mise en avant des plats signatures.</p>
+            <p><b>Objectif :</b> augmenter les réservations et améliorer l’expérience client avant visite.</p>
+            <div class="tags">
+              <span class="tag">Menu</span><span class="tag">Réservation</span><span class="tag">SEO</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Construire le mien</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/vetm.png" alt="Boutique de vêtements" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Boutique de vêtements</div>
+            <h3>Boutique de vêtements</h3>
+            <p><b>Problème :</b> le catalogue était peu inspirant et la navigation ne mettait pas en valeur les collections.</p>
+            <p><b>Solution :</b> création de pages produit stylées, filtres de catégorie intuitifs et mise en avant des nouveautés.</p>
+            <p><b>Objectif :</b> augmenter l’engagement et les ventes en ligne avec un parcours visuel fluide.</p>
+            <div class="tags">
+              <span class="tag">Lookbook</span><span class="tag">Collections</span><span class="tag">Responsive</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="products.html">Option packagée</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/Gray and Blue Modern Clean Product Pricelist Desktop Prototype.png" alt="Magasin d’électronique" loading="lazy" />
+            </div>
+            <div class="meta">Site web • Magasin d’électronique</div>
+            <h3>Magasin d’électronique</h3>
+            <p><b>Problème :</b> les fiches produit n’expliquaient pas suffisamment les caractéristiques techniques.</p>
+            <p><b>Solution :</b> refonte détaillée des pages produit, comparateurs et sections d’offres spéciales.</p>
+            <p><b>Objectif :</b> faciliter l’achat et rassurer les clients sur le choix des équipements.</p>
+            <div class="tags">
+              <span class="tag">Fiches produit</span><span class="tag">Comparateur</span><span class="tag">Performance</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="contact.html">Installer pour mon activité</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-card data-kind="website" data-reveal>
+            <div class="media">
+              <img src="assets/logo.png" alt="Experience PWA" loading="lazy" />
+            </div>
+            <div class="meta">Site web • PWA</div>
+            <h3>Experience PWA</h3>
+            <p><b>Problème :</b> le site ne se chargeait pas bien hors connexion et ressemblait peu à une app.</p>
+            <p><b>Solution :</b> mise en place d’une PWA installable et d’un cache hors ligne intelligent.</p>
+            <p><b>Objectif :</b> renforcer la fidélisation avec une expérience plus rapide et accessible.</p>
+            <div class="tags">
+              <span class="tag">PWA</span><span class="tag">Cache</span><span class="tag">Performance</span>
+            </div>
+            <div class="split">
+              <a class="btn primary" href="services.html">Voir le service</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card pad glow-edge">
+          <div class="section-head">
+            <div>
+              <h2>Projet suivant ?</h2>
+              <p>Parlez-nous de ce que vous construisez, et nous proposerons le chemin le plus rapide vers un résultat premium.</p>
+            </div>
+          </div>
+          <div class="split">
+            <a class="btn primary" href="contact.html">Contact & scope</a>
+            <a class="btn" href="products.html">Voir les produits</a>
+            <span class="hint">Indiquez votre deadline et la plateforme souhaitée (Web / Appli / IA).</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <div class="foot-brand">
+          <strong>Firm Foundation</strong>
+          <p>Constructions basées sur des résultats.</p>
+          <p>Conversion, temps gagné et efficacité — concevons cela ensemble.</p>
+          <div class="foot-social">
+            <a href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+          <p style="margin-top:12px">© 2026 Firm Foundation. Tous droits réservés.</p>
+        </div>
+        <div class="links">
+          <a href="blog.html">Blog</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Produits</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Lightbox: fullscreen preview for portfolio images -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+      <button class="lightbox__close" aria-label="Fermer la vue">×</button>
+      <div class="lightbox__inner">
+        <img class="lightbox__img" src="" alt="" />
+        <div class="lightbox__caption" aria-live="polite"></div>
+      </div>
+    </div>
+  </body>
+</html>
+

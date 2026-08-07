@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ — Firm Foundation</title>
+    <meta name="description" content="Questions fréquentes sur les sites web, agents IA, tarifs, délais et support." />
+    <meta property="og:title" content="FAQ — Firm Foundation" />
+    <meta property="og:description" content="Questions fréquentes sur les sites web, agents IA, tarifs, délais et support." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://firmfoundation.example.com/faq.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-neon bg-neon--1"></div>
+      <div class="bg-neon bg-neon--2"></div>
+      <div class="bg-neon bg-neon--3"></div>
+      <canvas class="bg-particles" id="bg-particles"></canvas>
+      <div class="bg-noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="wrap inner">
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/logo.png" alt="Firm Foundation" width="40" height="40" />
+          <div>
+            <strong>Firm Foundation</strong>
+            <span>Sites web • Apps • Agents IA</span>
+          </div>
+        </a>
+        <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Ouvrir le menu">
+          <div class="menu-lines" aria-hidden="true"><span></span></div>
+        </button>
+        <nav class="nav" data-nav-wrap>
+          <a href="index.html" data-nav>Accueil</a>
+          <a href="services.html" data-nav>Services</a>
+          <a href="products.html" data-nav>Produits</a>
+          <a href="portfolio.html" data-nav>Portfolio</a>
+          <a href="faq.html" data-nav>FAQ</a>
+          <a href="about.html" data-nav>À propos</a>
+          <a href="contact.html" data-nav>Contact</a>
+          <a class="cta" href="contact.html">Démarrer un projet</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="card pad glow-edge">
+          <div class="eyebrow"><span class="dot"></span> Format questions fréquentes</div>
+          <h1>FAQ</h1>
+          <p class="lead">Réponses rapides aux questions les plus courantes.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card pad glow-edge">
+          <div class="accordion" data-accordion>
+            <div class="acc" data-open="true">
+              <button type="button">
+                <span>Quels types de sites créez-vous ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                Sites vitrines, sites e-commerce, sites personnalisés, sites multi-pages et landing pages orientées conversion.
+              </div>
+            </div>
+
+            <div class="acc" data-open="false">
+              <button type="button">
+                <span>Combien coûte un site web / un agent IA ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                Les tarifs varient selon le périmètre. Planchers :
+                <ul class="list">
+                  <li><b>Site vitrine :</b> à partir de 900 €</li>
+                  <li><b>Site e-commerce :</b> à partir de 2 500 €</li>
+                  <li><b>Application mobile :</b> à partir de 1 500 €</li>
+                  <li><b>Agent IA :</b> à partir de 2 000 €</li>
+                </ul>
+                Ces fourchettes permettent de se qualifier rapidement avant de définir le scope exact.
+              </div>
+            </div>
+
+            <div class="acc" data-open="false">
+              <button type="button">
+                <span>Quels sont vos délais de livraison ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                La livraison est généralement de 7 à 21 jours selon la complexité, le nombre de pages et les intégrations (paiements, calendriers, CRM, workflows IA).
+              </div>
+            </div>
+
+            <div class="acc" data-open="false">
+              <button type="button">
+                <span>Que se passe-t-il après la livraison ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                Vous recevez un kit de transfert, une formation basique et une maintenance optionnelle (mises à jour, sauvegardes, améliorations, réglage de l’automation).
+              </div>
+            </div>
+
+            <div class="acc" data-open="false">
+              <button type="button">
+                <span>Travaillez-vous à distance ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                Oui. Workflow à distance avec communication claire et itérations rapides. Si du travail local est requis, nous pouvons en discuter.
+              </div>
+            </div>
+
+            <div class="acc" data-open="false">
+              <button type="button">
+                <span>Puis-je modifier mon site moi-même ?</span>
+                <i class="chev" aria-hidden="true"></i>
+              </button>
+              <div class="panel">
+                Oui. Nous pouvons construire des sections éditables et fournir une formation. Pour les sites plus grands, nous pouvons intégrer un CMS et documenter le workflow.
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="split">
+              <a class="btn primary" href="contact.html">Votre question n’est pas résolue ? Contactez-moi</a>
+              <a class="btn" href="services.html">Voir les services</a>
+              <a class="btn" href="products.html">Voir les produits</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <div class="foot-brand">
+          <strong>Firm Foundation</strong>
+          <p>Réponses claires, livraison nette.</p>
+          <p>Posez votre question et recevez une réponse sous 24 heures.</p>
+          <div class="foot-social">
+            <a href="https://www.linkedin.com/in/firm-foundation-75b823404" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://x.com/Firmfound_510" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/th_firm_foundation" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+          <p style="margin-top:12px">© 2026 Firm Foundation. Tous droits réservés.</p>
+        </div>
+        <div class="links">
+          <a href="blog.html">Blog</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
